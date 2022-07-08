@@ -1,0 +1,26 @@
+/* Navbar code */
+
+.container-fluid {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #4e5944;
+}
+
+.text-nav1 {
+  color: #fff !important;
+  text-decoration: underline !important;
+  font-family: serif;
+  font-size: 15px;
+}
+
+.text-nav2 {
+  color: #b8c6ac !important;
+  text-decoration: underline !important;
+  font-family: serif;
+  font-size: 15px;
+}
+
+.right-left{
+    padding-left: 140px;
+    padding-right: 140px;
+}
