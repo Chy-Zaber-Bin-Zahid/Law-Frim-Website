@@ -84,3 +84,54 @@ a.text2 :hover {
   justify-content: center;
   align-items: center;
 }
+
+/* Second container */
+
+.second-con{
+  background-color: #ebebe0;
+  margin-top: 3px;
+}
+
+.second{
+  display: flex;
+  width: 73%;
+  margin: auto;
+  padding: 12px 0px 12px 0px;
+}
+
+.second-left{
+  border-right: 1px dotted black;
+  padding: 0px 30px 0px 0px;
+}
+
+.second-right{
+  padding: 0px 0px 0px 25px;
+}
+
+.h1-s{
+  font-family: serif;
+  padding-bottom: 1rem;
+  color:  #57614e;
+}
+
+.h1-sl{
+  font-size: 32px;
+}
+
+.h1-sr{
+  font-size: 24px;
+}
+
+p a{
+  color: #626262;
+}
+
+.p-s{
+  font-size: 14px;
+  color: #626262;
+}
+
+.p-bottom{
+  text-align: right;
+  padding-right: 25px;
+}
