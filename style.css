@@ -56,7 +56,7 @@ a.text2 :hover {
   margin: auto;
 }
 
-.text-f-left{
+.text-f-left {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -65,21 +65,21 @@ a.text2 :hover {
   text-align: center;
 }
 
-.p1-f{
+.p1-f {
   font-size: 30px;
   color: #4e5944;
   font-family: serif;
   padding-left: 1rem;
 }
 
-.p2-f{
+.p2-f {
   padding-left: 2rem;
   font-size: 25px;
   color: #4e5944;
   font-family: serif;
 }
 
-.img-f-right{
+.img-f-right {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,51 +87,124 @@ a.text2 :hover {
 
 /* Second container */
 
-.second-con{
+.second-con {
   background-color: #ebebe0;
   margin-top: 3px;
 }
 
-.second{
+.second {
   display: flex;
   width: 73%;
   margin: auto;
   padding: 12px 0px 12px 0px;
 }
 
-.second-left{
+.second-left {
   border-right: 1px dotted black;
   padding: 0px 30px 0px 0px;
 }
 
-.second-right{
+.second-right {
   padding: 0px 0px 0px 25px;
 }
 
-.h1-s{
+.h1-s {
   font-family: serif;
   padding-bottom: 1rem;
-  color:  #57614e;
+  color: #57614e;
 }
 
-.h1-sl{
+.h1-sl {
   font-size: 32px;
 }
 
-.h1-sr{
+.h1-sr {
   font-size: 24px;
 }
 
-p a{
+p a {
   color: #626262;
 }
 
-.p-s{
+.p-s {
   font-size: 14px;
   color: #626262;
 }
 
-.p-bottom{
+.p-bottom {
   text-align: right;
   padding-right: 25px;
+}
+
+/* third container */
+
+.third {
+  background-color: #b7bbb3;
+  padding: 30px 0px;
+  margin-top: 3px;
+}
+
+.third-all {
+  width: 73%;
+  margin: auto;
+}
+
+.third-four {
+  display: flex;
+  flex-direction: row;
+}
+
+.third-box {
+  margin: 0px 5px;
+}
+
+.third-img {
+  border: 5px solid rgba(231, 231, 231, 0.8);
+  box-shadow: 0px 1px 5px black;
+}
+
+.third-all h1 {
+  margin-bottom: 2rem;
+  color: #646e58;
+  font-size: 24px;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+.third-box h1,
+img,
+p,
+button {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.third-box button {
+  font: 12px/28px Arial, Helvetica, sans-serif;
+  height: 28px;
+  width: 97px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #4e5944;
+  border: none;
+  border-radius: 1px;
+}
+
+.third-box h1 {
+  color: #3f3e3e;
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.third-box p {
+  color: #3f3e3e;
+  font: 14px/24px Arial, Helvetica, sans-serif;
 }
