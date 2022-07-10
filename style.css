@@ -208,3 +208,59 @@ button {
   color: #3f3e3e;
   font: 14px/24px Arial, Helvetica, sans-serif;
 }
+
+/* forth container */
+
+.fourth {
+  background-color: #c9ccc7;
+  margin-top: 3px;
+}
+
+.fourth-all {
+  width: 73%;
+  margin: auto;
+  display: flex;
+  padding: 27px 0px;
+}
+
+.fourth-box {
+  padding: 0px 15px 0px 30px;
+}
+
+.box-1,
+.box-2 {
+  border-right: 1px dotted gray;
+}
+
+.box-3 button {
+  height: 38px;
+  line-height: 38px;
+  width: 212px;
+  color: #fff;
+  display: inline-block;
+  font: 12px/28px Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  border: none;
+  background-color: #4e5944;
+  border-radius: 2px;
+}
+
+.box-3 button :hover {
+  background-color: black;
+}
+
+.fourth-box h1 {
+  color: #626262;
+  font: bold 13px/24px Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fourth-box p {
+  color: #626262;
+  font: 12px/24px Arial, Helvetica, sans-serif;
+}
